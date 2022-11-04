@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+
+}
+.top-container{
+    margin: 0;
+background:url("https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg?w=826&t=st=1667575410~exp=1667576010~hmac=9e5b055dfe46471d41b25e3834fb3f6608ba7c571bd20435f60f9132250c304ahttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx8JQC_aeJpCh7EWHA8jUKAwWTczDYzR3zYVY7aiIbQ99gwG9_Pdg3nN29kgnWn9GO8I0&usqp=CAU");
+background-size: cover;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+box-shadow: 0 0px 8px black;
+}
+.top-container h1{
+    color: rgb(228, 228, 228);
+    font-size: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+ 
+}
+.text{
+    margin: 50px 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.navbar{
+    box-shadow: 0 0px 8px rgb(255, 255, 255);
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.4s;
+    
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.navbar ul li a:hover{
+    color: red;
+    font-weight: bold;
+}
+.navbar.active{
+    background-color: black;
+}
+.navbar.active ul li a{
+    color: rgb(255, 0, 0);
+}
